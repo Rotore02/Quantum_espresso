@@ -1,0 +1,6 @@
+&bands
+    prefix = 'WSe2'
+    outdir = '/home/alessandro_rotondi/q-e/projects/WSe2/tmp'
+    filband = 'WSe2.dat'
+    lsym = .true.
+/

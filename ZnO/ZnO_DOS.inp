@@ -1,0 +1,8 @@
+&DOS
+    outdir = '/home/alessandro_rotondi/q-e/projects/ZnO/tmp'
+    prefix = 'ZnO'
+    fildos = 'ZnO_DOS.dos'
+    Emin = -11.0
+    Emax = 8.0
+    DeltaE = 0.1
+/

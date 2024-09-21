@@ -1,0 +1,42 @@
+&CONTROL
+  calculation = 'nscf'
+  restart_mode = 'restart'
+  nstep = 500
+  prefix = 'ZnO'
+  outdir = './tmp/'
+  pseudo_dir = '/home/alessandro_rotondi/q-e/pseudo/'
+  verbosity = 'high'
+/
+
+&SYSTEM
+  a = 4.55851e+00
+  ibrav = 1
+  nat = 8
+  ntyp = 2 
+  ecutwfc = 47.0
+  ecutrho = 323.0
+  input_dft = 'PBE'
+  vdw_corr = 'XDM'
+/
+
+&ELECTRONS
+  conv_thr = 1.0d-10
+  mixing_beta = 0.5
+/
+
+K_POINTS (automatic)
+  12 12 12 0 0 0
+
+ATOMIC_SPECIES
+Zn   65.39000  Zn.pbe-dnl-kjpaw_psl.1.0.0.UPF
+O    15.99940  O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS (crystal)
+Zn            0.0000000000        0.0000000000        0.0000000000
+Zn            0.0000000000        0.5000000000        0.5000000000
+Zn            0.5000000000        0.0000000000        0.5000000000
+Zn            0.5000000000        0.5000000000        0.0000000000
+O             0.7500000000        0.7500000000        0.7500000000
+O             0.7500000000        0.2500000000        0.2500000000
+O             0.2500000000        0.7500000000        0.2500000000
+O             0.2500000000        0.2500000000        0.7500000000

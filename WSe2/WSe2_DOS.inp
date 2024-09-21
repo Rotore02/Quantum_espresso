@@ -1,0 +1,8 @@
+&DOS
+    outdir = '/home/alessandro_rotondi/q-e/projects/WSe2/tmp'
+    prefix = 'WSe2'
+    fildos = 'WSe2_DOS.dos'
+    Emin = -65.0
+    Emax = 10.0
+    DeltaE = 0.1
+/

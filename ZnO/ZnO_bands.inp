@@ -1,0 +1,6 @@
+&bands
+    prefix = 'ZnO'
+    outdir = '/home/alessandro_rotondi/q-e/projects/ZnO/tmp'
+    filband = 'ZnO.dat'
+    lsym = .true.
+/
