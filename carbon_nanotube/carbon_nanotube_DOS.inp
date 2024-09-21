@@ -1,0 +1,8 @@
+&DOS
+    outdir = '/home/alessandro_rotondi/q-e/projects/carbon_nanotube/tmp'
+    prefix = 'carbon_nanotube'
+    fildos = 'carbon_nanotube_DOS.dos'
+    Emin = -25.0
+    Emax = 6.0
+    DeltaE = 0.1
+/

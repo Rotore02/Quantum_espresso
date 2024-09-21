@@ -1,0 +1,47 @@
+
+     Program DOS v.6.7MaX starts on  7Sep2024 at 21:10:20 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     4 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+
+     Reading xml data from directory:
+
+     /home/alessandro_rotondi/q-e/projects/carbon_nanotube/tmp/carbon_nanotube.save/
+     file C.UPF: wavefunction(s)  3d renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBESOL
+                           (   1   4  10   8   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min       20842   10233   3140               371411   127792   21663
+     Max       20844   10239   3142               371412   127793   21664
+     Sum       83373   40945  12565              1485647   511171   86655
+
+
+     Gaussian broadening (default values): ngauss,degauss=   0    0.007350
+
+
+     DOS          :      3.77s CPU      4.14s WALL
+
+
+   This run was terminated on:  21:10:24   7Sep2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

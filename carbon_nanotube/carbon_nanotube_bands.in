@@ -1,0 +1,6 @@
+&bands
+    prefix = 'carbon_nanotube'
+    outdir = '/home/alessandro_rotondi/q-e/projects/carbon_nanotube/tmp'
+    filband = 'carbon_nanotube_bands.dat'
+    lsym = .true.
+/
